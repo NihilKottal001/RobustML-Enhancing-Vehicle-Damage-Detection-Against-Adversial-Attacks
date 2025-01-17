@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "finalproject"
+version = "0.1.0"
+description = "Template for RUC Practical AI final project."
+authors = ["Mauro J. Sanchirico III <156733573+mauro-j-sanchirico@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.1.1"
+matplotlib = "^3.9.2"
+notebook = "^7.2.2"
+ipython = "^8.27.0"
+ipympl = "^0.9.4"
+torch = "^2.5.1"
+torchvision = "^0.20.1"
+scikit-learn = "^1.5.2"
+pandas = "^2.2.3"
+seaborn = "^0.13.2"
+scipy = "^1.14.1"
+onnx = "^1.17.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+mypy = "^1.11.2"
+mypy-extensions = "^1.0.0"
+isort = "^5.13.2"
+flake8 = "^7.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
